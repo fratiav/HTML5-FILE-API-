@@ -1,0 +1,71 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    border: 5px solid black;
+    height: 67px;
+}
+
+#header-left{
+    width: 50%;
+    background-color: cadetblue;
+    float: left;
+}
+
+#header-right{
+    width: 50%;
+    background-color: darkgoldenrod;
+    float: right;
+}
+
+#zonaSeleccion{
+    width: 50%;
+    background-color: rgba(95, 158, 160, 0.301);
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    height: 600px;
+    max-height: 800px;
+    line-height: 600px;
+}
+
+#zonaInformacion{
+    width: 50%;
+    background-color: rgba(184, 135, 11, 0.521);
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    height: 600px;
+    max-height: 800px;
+}
+
+#zonaInformacion div{
+    padding: 5px;
+    margin: 25px auto;
+    border: 3px solid white;
+    width: fit-content;
+    max-width: 40%;
+    float: left;
+    margin-left: 20px;
+    height: fit-content;
+    line-height: 50px;
+}
+
+#zonaInformacion img{
+    width: 40%;
+    float: right;
+    margin: 20px;
+    height: fit-content;
+}
+
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
